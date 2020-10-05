@@ -15,6 +15,8 @@ export class AppComponent {
   appareilTwo = "Télévision";
   appareilThree = "Ordinateur";
 
+  appareilStatus = "éteint";
+
   constructor() {
     // modifier dynamiquement propriété
     setTimeout(
