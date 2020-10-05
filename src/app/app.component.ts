@@ -11,11 +11,20 @@ export class AppComponent {
   title = 'Mon projet Angular';
   isAuth = false;
 
-  appareilOne = "Machine à laver";
-  appareilTwo = "Télévision";
-  appareilThree = "Ordinateur";
-
-  appareilStatus = "éteint";
+  appareils = [
+    {
+      name: "Machine à laver",
+      status: "éteint"
+    },
+    {
+      name: "Télévision",
+      status: "allumé"
+    },
+    {
+    name: "Ordinateur",
+      status: "éteint"
+    }
+  ]
 
   constructor() {
     // modifier dynamiquement propriété
