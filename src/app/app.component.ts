@@ -11,6 +11,10 @@ export class AppComponent {
   title = 'Mon projet Angular';
   isAuth = false;
 
+  appareilOne = "Machine à laver";
+  appareilTwo = "Télévision";
+  appareilThree = "Ordinateur";
+
   constructor() {
     // modifier dynamiquement propriété
     setTimeout(
